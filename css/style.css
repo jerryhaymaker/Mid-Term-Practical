@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: red;
+}
+nav{
+    width: 100%;
+    height: 40px;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin: 8px;
+}
+
+
+.splashText{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.aboutInfo{
+    background-color: lightblue;
+    padding-bottom: 4px;
+
+}
+
+.aboutInfoText{
+    display: flex;
+}
+.homepageContent{
+    background-color: lightblue;
+}
+
+.homepageText{
+    display: flex;
+}
+
+h1, p {
+    margin-left: 8px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h2{
+    margin-left: 8px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+p{
+    margin-top: 4px;
+}
+
+.lipsumPTag{
+    width: 300px;
+}
+
+.imageContain{
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+img{
+    height: 200px;
+}
+
+@media screen and (min-width: 801px){
+    body{
+        background-color: green;
+    }
+}
